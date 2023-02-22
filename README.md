@@ -1,4 +1,4 @@
-# google-entrevista
+# Reto (Problema de entrevista de Google)
 Un string puede ser una subsecuencia de otro string si todos sus caracteres aparecen y están en el mismo orden.
 
 Por ejemplo, 'hello' es una subsecuencia de 'help love everyone' porque 'h', 'e', 'l', 'l' y 'o' aparecen en el segundo string en el mismo orden que 'hello'.

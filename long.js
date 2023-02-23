@@ -1,6 +1,12 @@
 // Primer modulo.
-function longuestWord() {
-  // Codigo..
+function longuestWord(array) {
+  let long = "";
+  array.forEach(str => {
+    if(long.lenght < str.lenght) {
+      long = str;
+    }
+  });
+  return long;
 };
 module.exports = {
   

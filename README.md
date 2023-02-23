@@ -11,7 +11,7 @@ Imagínate que te dan un diccionario de palabras y un string, como 'supercalifra
 
 ¿Puedes escribir un algoritmo de JavaSript para encontrar la palabra más larga en el diccionario que sea una subsecuencia del string?
 
-# CONSEJOS
+# Consejos
 Al crear un modulo nuevo, copiar toda la definicion en solucion.js
 
 Si un modulo requiere el uso de otro modulo, poner el modulo requerido en ese archivo

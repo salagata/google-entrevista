@@ -1,6 +1,18 @@
-// de fulanito : salagata , crea una funcion que de esto
-// "java" = { j : [0], a: [1,3], v:[2]}
+function mapString(str) {
+    let map = {};
+    for (let i = 0; i<str.length; i++) {
+        let letter = str[i];
+        if (map[letter]) {
+            map[letter].push(i);
+        } else {
+            map[letter] = [i];
+        }
+    }
+    return map;
+}
 
 
 // Pruebas
+
+console.log(mapString("gaab"));
 

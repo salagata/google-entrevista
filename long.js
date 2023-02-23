@@ -2,13 +2,12 @@
 function longuestWord(array) {
   let long = "";
   array.forEach(str => {
-    if(long.lenght < str.lenght) {
+    if(long.length < str.length) {
       long = str;
     }
   });
   return long;
 };
-module.exports = {
-  
-};
-module.exports["longuestWord"] = longuestWord;
+// Pruebas
+
+console.log(longuestWord(["a","bb","ccc"]));

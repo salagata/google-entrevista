@@ -12,6 +12,7 @@ function mapString(str) {
 }
 
 
+
 // Pruebas
 
 console.log(mapString("gaab"));

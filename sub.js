@@ -1,7 +1,7 @@
 // Modulos
 var { nextIndex } = require("./index")
 
-var { mapString } = require("./map")
+var {  mapString } = require("./map")
 
 // Funcion
 function sameLetters(wordu,strlo) {
@@ -17,5 +17,6 @@ function sameLetters(wordu,strlo) {
 
 
 }
+
 console.log(mapString('hullaballoo'));
-console.log(sameLetters('sass','samos'));
+console.log(sameLetters('sass','samos')); 

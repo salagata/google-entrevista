@@ -3,6 +3,6 @@ function nextIndex(array,num) {
     return index;
 }
 
-// Pruebas
+// Exportar
 
-console.log(nextIndex([3,7],4));
+module.exports.nextIndex = nextIndex

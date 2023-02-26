@@ -12,8 +12,12 @@ function mapString(str) {
 }
 
 
+<<<<<<< HEAD
 
 // Pruebas
+=======
+// Exportar
+>>>>>>> nou
 
-console.log(mapString("gaab"));
+module.exports.mapString = mapString
 

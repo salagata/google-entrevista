@@ -1,27 +1,13 @@
 // Modulos
-function nextIndex(array,num) {
-    let index = array.find(element => element >= num);
-    return index;
-};
+var { nextIndex } = require("./index")
 
-function mapString(str) {
-    let map = {};
-    for (let i = 0; i<str.length; i++) {
-        let letter = str[i];
-        if (map[letter]) {
-            map[letter].push(i);
-        } else {
-            map[letter] = [i];
-        }
-    }
-    return map;
-}
+var {  mapString } = require("./map")
 
 // Funcion
-function sameLetters(str,word) {
-    let etring = mapString(str);
-    for (const letter of word) {
-        if (etring[letter]&& etring[letter].length != 0 ) {
+function sameLetters(wordu,strlo) {
+    let etring = mapString(strlo);
+    for (const letter of wordu) {
+        if (etring[letter] && etring[letter].length != 0 ) {
             etring[letter].shift()
         } else {
             return false;
@@ -30,5 +16,9 @@ function sameLetters(str,word) {
     return true
 
 
+}
+
+console.log(mapString('hullaballoo'));
+console.log(sameLetters('sass','samos')); 
 }
 console.log(sameLetters('samos','sas'));

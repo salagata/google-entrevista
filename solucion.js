@@ -1,5 +1,5 @@
 // Importar modulos...
 
-// const {moduleName} = require("./modulos/moduleFileName");
+// const name = require("./moduleFileName");
 
 // Solucion del problema

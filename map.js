@@ -12,12 +12,7 @@ function mapString(str) {
 }
 
 
-<<<<<<< HEAD
-
-// Pruebas
-=======
 // Exportar
->>>>>>> nou
 
 module.exports.mapString = mapString
 
